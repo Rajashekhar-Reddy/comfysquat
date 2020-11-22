@@ -525,7 +525,6 @@ footer h6{
 	font-family: Montserrat;
 	font-size: 21px;
 	font-weight: 600;
-	text-align: center;	
 }
 .icn-square{
 	border: 1px solid saddlebrown;
@@ -553,3 +552,169 @@ font-weight: 300;
 .mt-14{
 	margin-top: 14px;
 }
+
+
+/* /////////////////////////next viev page////////////////////// */
+.carousel-control-next {
+    right: 0;
+	left: 59%;
+	display: flex;
+	justify-content: end;
+}
+
+.carousel-control-prev {
+	display: flex;
+	justify-content: start;
+}
+
+.small-img img{
+	width: 68px !important;
+	height: 68px;
+	padding: 10px;
+}
+
+.v-heading{
+	/* Style for "The Origin" */
+color: #ffffff;
+font-size: 33px;
+font-weight: 600;
+}
+@media (max-device-width: 768px){
+	.mb-flex{
+		display: flex;
+		float: none !important;
+}
+}
+.active{
+	border: 10px solid #ffffff;
+    border-radius: 16px;
+}
+
+.pad-40{
+	padding:40px
+}
+
+.v-desc{
+color: #ffffff;
+font-size: 18px;
+font-weight: 400;
+text-align: left;
+}
+
+.form-control{
+	max-width: 50px;
+	padding: 0;
+	outline: unset;
+width: 60px;
+height: 31px;
+border-radius: 8px;
+background-color: #ffffff;
+}
+
+.form-control:focus {
+    outline: 0;
+    box-shadow: none;
+}
+input[type=number]::-webkit-inner-spin-button {
+	width: 30px;
+	height: 30px;
+  }
+
+  .quantity{
+	  /* Style for "QUANTITY:" */
+color: #ffffff;
+font-size: 10px;
+font-weight: 700;
+  }
+
+  .cost{
+	  /* Style for "₹599.00 IN" */
+color: #073077;
+font-family: Montserrat;
+font-size: 26px;
+font-weight: 600;
+text-align: left;
+text-transform: uppercase;
+  }
+
+  .discount{
+color: #073077;
+font-family: Montserrat;
+font-size: 17px;
+font-weight: 600;
+line-height: normal;
+text-align: left;
+text-decoration: #ffffff line-through;
+  }
+
+  .free{
+color: #ffffff;
+font-family: Montserrat;
+font-size: 12px;
+font-weight: 500;
+margin-bottom: 7px;
+  }
+  
+  .order{
+border-radius: 8px;
+background-color: #073077;
+border: 0;
+color: #ffff;
+padding: 7px;
+margin-bottom: 10px;
+  }
+  .tick p{
+color: #ffffff;
+font-family: Montserrat;
+font-size: 18px;
+font-weight: 500;
+text-align: left;
+  }
+
+  .bg-white{
+	background-color: #ffffff;
+  }
+
+  .abt-div-shadow{
+	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+	width: 68%;
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+	margin-bottom: 50px;
+	padding-bottom: 15px;
+  }
+  .abt-product{
+opacity: 0.92;
+color: #073077;
+font-size: 25px;
+font-weight: 600;
+padding-top: 15px;
+  }
+  .abt-desc{
+color: #073077;
+font-size: 20px;
+font-weight: 300;
+color: #000000;
+  }
+
+  .abt-knowmore{
+	color: #073077;
+	font-size: 20px;
+	font-weight: 300;
+	  }
+
+	  /* /////last accordian start//////// */
+	  .mb-0 > a {
+		display: block;
+		position: relative;
+	  }
+	  .mb-0 > a:after {
+		content: "\f078"; /* fa-chevron-down */
+		font-family: 'FontAwesome';
+		position: absolute;
+		right: 0;
+	  }
+	  .mb-0 > a[aria-expanded="true"]:after {
+		content: "\f077"; /* fa-chevron-up */
+	  }
