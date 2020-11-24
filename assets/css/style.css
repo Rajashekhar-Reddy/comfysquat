@@ -573,7 +573,15 @@ font-weight: 300;
 .small-img img{
 	width: 68px !important;
 	height: 68px;
-	padding: 10px;
+	border: 1px solid #ffffff;
+}
+
+img#activeImg:hover {
+    transform: scale(2);
+    transition: all .2s ease-in-out;
+}
+.mr-10{
+	margin: 10px;
 }
 
 .v-heading{
@@ -820,3 +828,8 @@ font-size: 22px;
 font-weight: 400;
 text-align: left;
 }
+
+.col-sm-4 img{
+    cursor: pointer;
+}
+
