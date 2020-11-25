@@ -829,7 +829,86 @@ font-weight: 400;
 text-align: left;
 }
 
+.statue{
+	max-width: 82%;
+	position: relative;
+    bottom: 75px;
+}
 .col-sm-4 img{
     cursor: pointer;
 }
 
+@media (max-device-width: 768px){
+	.col-md-12{
+		padding-right: 0;
+		padding-left: 0;
+		}
+
+		.no-pad{
+			padding-right: 0;
+    padding-left: 0;
+		}
+		.nopad .col-sm-8{
+			padding-right: 0;
+			padding-left: 0;
+		}
+		.active{
+			border: none;
+		}
+		.product-spec button.btn.btn-link {
+			opacity: 0.92;
+			color: #073077;
+			font-size: 14px;
+			font-weight: 500;
+		}
+		.acc2 .card{
+			margin-left: 35px;
+			margin-right: 18px;
+
+		 }
+		 .statue{
+			 display: none;
+		}
+
+		footer ul{
+			padding: 0;
+
+		}
+		footer h6 {
+			color: #000000;
+			font-family: Montserrat;
+			font-size: 15px;
+			font-weight: 600;
+		}
+		footer li{
+			color: #000000;
+			font-family: Montserrat;
+			font-size: 12px;
+			font-weight: 500;
+
+		}
+		.pad-175 {
+			padding-left: 0;
+			padding-right: 0;
+		}
+		.tick p {
+			text-align: center;
+		}
+		.form-control{
+				display: unset;
+		}
+		.form-group{
+			text-align: center;
+		}
+		.cost{
+			text-align: center;
+		}
+
+		.buygroup{
+			text-align: center;
+		}
+		.product-spec .mb-0 > button:after {
+			right: 10px;
+		}
+
+	}
